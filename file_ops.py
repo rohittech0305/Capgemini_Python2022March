@@ -46,3 +46,7 @@ wb (write binary data) -> non text data (image, audio, video)
 #     fo.writelines(["ROHIT\n","Pallavi\n","Chandra\n","Aveek\n","BILAL\n"])
 #     fo.seek(0,0)
 #     print(fo.read())
+
+# with open(r"D:\Users\rkandasamy\Pictures\puppy.jpg","rb") as fo:
+#     with open(r"D:\Users\rkandasamy\Pictures\mypet.jpg","wb") as wfo:
+#         wfo.write(fo.read())
