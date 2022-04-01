@@ -1,0 +1,15 @@
+%a	Weekday in abbreviated name		Sun,Mon..
+%A	Weekday in fullname			Sunday,Monday,Tuesday...
+%b 	Month in abbreviated name		Jan,Feb,Mar...
+%B 	Month in fullname			January, February,March...
+%d	day of the month			01,02,03,...31
+%w	Weekday in decimal number		0,1,2,3...6
+%m	Month is number				01,02...12
+%y	year in 2 digit				22,23,24
+%Y	year in 4 digit				2022,2023,2024
+%H 	hours in 24 hrs format
+%I	hours in 12 hrs format
+%M 	Minutes
+%S	Seconds
+%p	AM|PM
+%f 	Microseconds
