@@ -24,6 +24,10 @@ class Employee():
         else:
             return "Workingday"
 
+    @staticmethod
+    def office_locations():
+        return ['Chennai','Bangalore','Pune','Hyderabad','Gurgoan']
+
 class Manager():
     def appraisal(self):
         self.salary = int(self.salary * 2)
@@ -60,6 +64,7 @@ print(dev_1.salary)
 # emp_2=Employee.create_object(str2)
 #
 # import datetime
-# tday=datetime.date(2022,4,1)
+# tday=datetime.date(2022,4,3)
 # print(Employee.is_workingday(tday))
 
+print(Employee.office_locations())
